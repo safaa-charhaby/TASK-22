@@ -1,0 +1,33 @@
+{
+  "name": "babel-project",
+  "version": "1.0.0",
+  "description": "Transpile code in a Babel project",
+  "main": "main.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "async": "^3.2.4",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "concat-map": "^0.0.1",
+    "ejs": "^3.1.9",
+    "filelist": "^1.0.4",
+    "has-flag": "^4.0.0",
+    "jake": "^10.8.7",
+    "minimatch": "^3.1.2",
+    "supports-color": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.19",
+    "@babel/preset-env": "^7.22.20"
+  },
+  "scripts": {
+    "build": "babel ./SourceCode/src -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
